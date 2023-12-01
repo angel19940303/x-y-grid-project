@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
+  <title>Proyecto Foundation CSS</title>
+</head>
+
+<body>
+  <div class="grid-container color-body">
+    <!-- Titulo -->
+    <div class="grid-container full cuerpo">
+      <div class="grid-x grid-padding-x ">
+        <div class="cell large-4 border-cabecera">
+          <h3 class="color-titlo">El sabor de la vida</h3>
+          <p class="h4 text-right color-eslogan"><em>Comer para creer</em></p>
+        </div>
+        <div class="cell large-8"></div>
+      </div>
+      <div class="grid-x">
+        <div class="cell">
+          <hr class="divisor-encabezado">
+        </div>
+      </div>
+      <div class="grid-x grid-padding-x align-top grid-margin-x">
+        <div class="cell large-4 sidebar show-for-large">
+          <!-- buscador -->
+          <div class="input-group ">
+            <input class="input-group-field" type="text">
+            <div class="input-group-button">
+              <button type="submit" name="enviar" class="button"><i class="step fi-magnifying-glass"></i></button>
+            </div>
+          </div>
+          <!-- seccion favoritos -->
+          <ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
+            <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title color-subtitlo">Inicio</a>
+              <div class="accordion-content color-subtitlo" data-tab-content>
+                <p>Panel 1. Lorem ipsum dolor</p>
+                <a href="#">Mapa del sitio</a>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title color-subtitlo">Mis platos preferidos</a>
+              <div class="accordion-content color-subtitlo" data-tab-content>
+                <p>Panel 2. Lorem ipsum dolor</p>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title color-subtitlo">Mis Recetas</a>
+              <div class="accordion-content color-subtitlo" data-tab-content>
+                <p>Panel 3. Lorem ipsum dolor</p>
+              </div>
+            </li>
+          </ul>
+
+          <!-- galeria de imagenes -->
+          <div class="grid-x grid-margin-x">
+            <div class="cell">
+              <h5 class="color-subtitlo">Favoritos</h5>
+            </div>
+            <div class="cell large-4"><img class="thumbnail" src="img/receta1.jpg"></div>
+            <div class="cell large-4"><img class="thumbnail" src="img/receta2.jpg"></div>
+            <div class="cell large-4"><img class="thumbnail" src="img/receta3.jpg"></div>
+          </div>
+          <div class="grid-x grid-margin-x">
+            <div class="cell large-4"><img class="thumbnail" src="img/receta4.jpg"></div>
+            <div class="cell large-4"><img class="thumbnail" src="img/receta5.jpg"></div>
+            <div class="cell large-4"><img class="thumbnail" src="img/receta6.jpg"></div>
+          </div>
+          <!-- Historial -->
+          <div class="grid-x grid-margin-x color-subtitlo">
+            <div class="cell">
+              <h5 class="color-subtitlo">Historial</h5>
+              <ul class="no-bullet">
+                <li><a href="#">Raviolis de Carne gratinados</a></li>
+                <li><a href="#">Postres en 5 minutos</a></li>
+                <li><a href="#">Formas de hornear en casa</a></li>
+                <li><a href="#">Pollo en salsa</a></li>
+                <li><a href="#">Cañon de cerdo BBQ</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="cell large-8 contenido">
+          <div class="grid-x grid-padding-x grid-padding-y">
+            <div class="cell entrada">
+              <h3>Pozole Blanco de pollo</h3>
+              <p>Lunes, 5 de Agosto de 2019</p>
+              <div class="cell large-4"><img class="thumbnail" src="img/entrada1.jpg"></div>
+              <h4><strong>Preparación</strong></h4>
+              <ul>
+                <li>Colocamos una olla honda en el fuego.</li>
+                <li>Añadimos el agua.</li>
+                <li>Añadimos el maíz pozolero.</a></li>
+                <li>Añadimos el ajo.</li>
+                <li>Añadimos la cebolla.</li>
+                <li>Añadimos el consomé de pollo en polvo.</li>
+                <li>Tapamos la olla.</li>
+                <li>Dejamos en el fuego por un lapso de 1 hora y 15 minutos.</li>
+                <li>Añadimos la pechuga de pollo.</li>
+                <li>Añadimos el ramo de hierbas de olor.</li>
+                <li>Añadimos sal al gusto.</li>
+                <li>Tapamos la olla.</li>
+                <li>Dejamos en el fuego por 50 minutos.</li>
+                <li>Retiramos la pechuga de pollo.</li>
+                <li>Desmenuzamos la pechuga.</li>
+                <li>Regresamos el pollo al pozole opcional.</li>
+                <li>Servimos, acompañamos con lechuga, rábanos, limón <small>al gusto.</small></li>
+              </ul>
+              <hr>
+              <p>Escribe un comentario:</p>
+              <textarea name="" id="" rows="3"></textarea>
+              <div class="grid-x align-right">
+                <button type="submit" name="enviar" class="button">Publicar <i class="step fi-check"></i></button>
+              </div>
+              <div class="comentario grid-x align-middle">
+                <div class="cell small-2">
+                  <img src="img/mujer.png" alt="">
+                </div>
+                <div class="cell small-10 align-middle">
+                  <h6 class="subheader"><strong>Maria23:</strong> Gracias por la receta 👍</h6>
+                </div>
+              </div>
+              <div class="comentario grid-x align-middle">
+                <div class="cell small-2">
+                  <img src="img/hombre.png" alt="">
+                </div>
+                <div class="cell small-10 align-middle">
+                  <h6 class="subheader"><strong>Juan_F:</strong> Tengo una pregunta, a que temperatura se debe dejar en
+                    cocción?</h6>
+                </div>
+              </div>
+              <div class="comentario grid-x align-middle">
+                <div class="cell small-2">
+                  <img src="img/hombre.png" alt="">
+                </div>
+                <div class="cell small-10 align-middle">
+                  <h6 class="subheader"><strong>Chef_788:</strong> La preparación es muy simple y no requiere ser un
+                    experto, gracias 👍</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="cell entrada">
+              <h3>Dedos De Queso Manchego Con Carne Molida</h3>
+              <p>Jueves, 15 de Agosto de 2019</p>
+              <div class="cell large-4"><img class="thumbnail" src="img/entrada2.jpg"></div>
+              <h4>Preparación</h4>
+              <ul>
+                <li>Colocamos un recipiente amplio.</li>
+                <li>Añadimos la carne molida.</li>
+                <li>Añadimos la cebolla.</li>
+                <li>Añadimos el ajo.</li>
+                <li>Añadimos perejil <small>al gusto</small>.</li>
+                <li>Añadimos albahaca <small>al gusto</small>.</li>
+                <li>Añadimos orégano <small>al gusto</small>.</li>
+                <li>Añadimos pimienta <small>al gusto</small>.</li>
+                <li>Añadimos sal <small>al gusto</small>.</li>
+                <li>Añadimos el jugo sazonador.</li>
+                <li>Integramos perfectamente.</li>
+                <li>Añadimos el pan molido.</li>
+                <li>Integramos perfectamente.</li>
+                <li>Tomamos un baston de queso manchego.</li>
+                <li>Envolvemos en carne molida.</li>
+                <li>Colocamos un recipiente hondo.</li>
+                <li>Añadimos los huevos.</li>
+                <li>Batimos perfectamente.</li>
+                <li>Tomamos un dedo de queso.</li>
+                <li>Pasamos por la harina.</li>
+                <li>Pasamos por el huevo.</li>
+                <li>Pasamos por el pan molido <small>y reservamos</small>.</li>
+                <li>Colocamos una olla honda en el fuego.</li>
+                <li>Añadimos el aceite <small>y dejamos calentar</small>.</li>
+                <li>Añadimos los dedos de queso manchego.</li>
+                <li>Dejamos freír por 25 minutos <small>o al termino que deseemos</small>.</li>
+                <li>Retiramos del fuego <small>y colocamos sobre papel absorbente</small>.</li>
+              </ul>
+              <hr>
+              <p>Escribe un comentario:</p>
+              <textarea name="" id="" rows="3"></textarea>
+              <div class="grid-x align-right">
+                <button type="submit" name="enviar" class="button">Publicar <i class="step fi-check"></i></button>
+              </div>
+              <div class="comentario grid-x align-middle">
+                <div class="cell small-2">
+                  <img src="img/hombre.png" alt="">
+                </div>
+                <div class="cell small-10 align-middle">
+                  <h6 class="subheader"><strong>PedroRss2:</strong> Lo pondre en practica! 👍</h6>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <script src="js/vendor/jquery-3.7.0.min.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+
+</html>
